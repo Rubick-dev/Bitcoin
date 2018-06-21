@@ -9,6 +9,8 @@ h1 {
   margin-bottom: 80px;
 }
 
+p,
+#applyCur,
 #price {
   color: green;
   font-size: 2rem;
