@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Current BitCoin Price</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>The Current Price for Bitcoin is: </h1>
+    <p><span id="applyCur"></span><span id="price"></span></p>
+    
+    <button id="btn">Refresh Data</button>
+    <fieldset>
+        <legend>Select a Currecny</legend>
+    
+        <div>
+            <input type="radio" id="usCur" name="USD" checked />
+            <label for="usCur">US Dollars</label>
+        </div>
+    
+        <div>
+            <input type="radio" id="EngCur" name="EngPnd" />
+            <label for="EngCur">English Pounds</label>
+        </div>
+    
+        <div>
+            <input type="radio" id="EuroCur" name="Euro" />
+            <label for="EuroCur">Euro</label>
+        </div>
+    
+    </fieldset>
+  </div>
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

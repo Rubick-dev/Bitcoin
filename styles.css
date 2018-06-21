@@ -1,0 +1,41 @@
+
+body {
+  margin: 100px;
+  text-align: center;
+  min-width: 350px;
+}
+
+h1 {
+  margin-bottom: 80px;
+}
+
+#price {
+  color: green;
+  font-size: 2rem;
+
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+input {
+  margin: 10px;
+}
+
+fieldset {
+  text-align: start;
+  max-width: 200px;
+  margin-left: 20%;
+}
+
+#btn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(0, 255, 149);
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
